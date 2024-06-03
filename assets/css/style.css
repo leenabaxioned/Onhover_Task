@@ -155,10 +155,11 @@ h1 {
   position: absolute;
   top: 30%;
   text-align: center;
+  transition: ease-in-out 1s;
 }
 
-.left-content { left: 10%; }
-.right-content { right: 10%; }
+/* .left-content { left: 10%; }
+.right-content { right: 10%; } */
 
 /* .left { background-color: #6b63da; }
 .right { background-color: #252525; } */
