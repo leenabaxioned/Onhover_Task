@@ -113,6 +113,65 @@ li {
 /*=================================
   main styling starts here
 =================================*/
+.main .wrapper {
+  display: flex;
+}
+ 
+img {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  display: block;
+} 
+
+.left, .right {
+  position: relative;
+}
+
+h1 {
+  padding-bottom: 40px;
+  color: #fff;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.buy {
+  padding: 15px 50px;
+  border: 2px solid #fff;
+  background-color: transparent;
+  color: #fff;
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  transition: all 1s;
+}
+
+.buy:hover { border: 2px solid transparent; }
+.left-content .buy:hover { background-color: #382fa4; }
+.right-content .buy:hover { background-color: #212121; }
+
+.left-content,
+.right-content {
+  position: absolute;
+  top: 30%;
+  text-align: center;
+}
+
+.left-content { left: 10%; }
+.right-content { right: 10%; }
+
+/* .left { background-color: #6b63da; }
+.right { background-color: #252525; } */
+
+/* .left:hover + .right {
+  flex-basis: 25%;
+  transition: all 1s;
+}
+
+.right:hover {
+  flex-basis: 100%;
+  transition: all 1s;
+} */
 /*=================================
   main styling ends here
 =================================*/
