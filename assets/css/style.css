@@ -155,7 +155,7 @@ h1 {
   position: absolute;
   top: 30%;
   text-align: center;
-  transition: ease-in-out 1s;
+  transition: all 1s;
 }
 
 /* .left-content { left: 10%; }
